@@ -3,6 +3,7 @@
 ## Team Members
 - [Margarida Passos da Cunha]
 - [Nina Berenice Wecera]
+- [Noah Kreyenkamp]
 
 ## Project Description
 Credit scoring bias analysis for DEGO course.
