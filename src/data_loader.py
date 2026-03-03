@@ -40,7 +40,8 @@ def flatten_record(record: dict) -> dict:
 
     # financials
     fin = record.get("financials", {})
-    flat["annual_income"] = fin.get("annual_income")
+    # some records use 'annual_salary' instead of 'annual_income'
+    flat["annual_income"] = fin.get("annual_income") if fin.get("annual_income") is not None else fin.get("annual_salary")
     flat["credit_history_months"] = fin.get("credit_history_months")
     flat["debt_to_income"] = fin.get("debt_to_income")
     flat["savings_balance"] = fin.get("savings_balance")

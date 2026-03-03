@@ -148,10 +148,11 @@ def fix_income_types(df: pd.DataFrame) -> pd.DataFrame:
 
 def fix_invalid_values(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Set impossible values to NaN.
+    Set impossible values to NaN and flag suspicious ones.
     
     Credit history months and savings balance should never be negative,
-    so any negative values are replaced with NaN.
+    so any negative values are replaced with NaN. Also flags unusually
+    high debt-to-income ratios.
     """
     # negative credit history
     neg_ch = df["credit_history_months"] < 0
@@ -166,6 +167,13 @@ def fix_invalid_values(df: pd.DataFrame) -> pd.DataFrame:
     if n_neg_sb > 0:
         print(f"Found {n_neg_sb} negative savings_balance -> setting to NaN")
         df.loc[neg_sb, "savings_balance"] = np.nan
+    
+    # flag extreme DTI (> 1.0 means debt payments exceed income)
+    high_dti = df["debt_to_income"] > 1.0
+    n_high_dti = high_dti.sum()
+    if n_high_dti > 0:
+        print(f"Found {n_high_dti} records with debt_to_income > 1.0 (flagged)")
+    df["high_dti_flag"] = high_dti
     
     return df
 
