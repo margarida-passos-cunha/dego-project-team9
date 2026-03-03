@@ -8,6 +8,13 @@
 ## Project Description
 Credit scoring bias analysis for DEGO course.
 
+## [Project Management](PROJECT_MGMT.md)
+Click on the link to open the Project Management file.
+It includes
+- Timeline
+- Tasks
+- Latest meeting notes
+
 ## Stucture
 - 'data/' - Dataset files
 - 'notebooks/' - Jupyter analysis notebooks

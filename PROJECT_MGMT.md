@@ -6,6 +6,7 @@
 | Fri March 6th | ✅ Analysis, testing & governance |
 | Sat March 7th | 📊 Presentation |
 | Sun March 8th | 🎙️ Voice over / video |
+| Mon March 9th (23:59) | ‼️ Project submission |
 
 ## Open Tasks
 - [ ] Bias analysis (Finley)
