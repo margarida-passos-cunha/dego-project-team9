@@ -4,6 +4,7 @@
 - [Margarida Passos da Cunha]
 - [Nina Berenice Wecera]
 - [Noah Kreyenkamp]
+- [Finley Marynek]
 
 ## Project Description
 Credit scoring bias analysis for DEGO course.
