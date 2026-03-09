@@ -2,25 +2,26 @@
 
 ## Timeline
 
-| Date                  | Deadline                          |
-|-----------------------|-----------------------------------|
-| Fri March 6th         | ✅ Analysis, testing & governance |
-| Sat March 7th         | 📊 Presentation                   |
-| Sun March 8th         | 🎙️ Voice over / video             |
-| Mon March 9th (23:59) | ‼️ Project submission             |
+| Date                    | Deadline                          |
+|-------------------------|-----------------------------------|
+| Fri March 6th           | ✅ Analysis, testing & governance |
+| Sat March 7th           | 📊 Presentation                   |
+| Sun March 8th - Mon 9th | 🎙️ Voice over / video             |
+| Mon March 9th (23:59)   | ‼️ Project submission             |
 
 ## Open Tasks
 
--   [ ] GDPR mapping (Margarida)
--   [ ] Policy recommendations (Margarida)
--   [ ] Compliance analysis (Margarida)
--   [ ] README documentation (Nina)
--   [ ] Finalize presentation (all)
--   [ ] Do voice over (all)
--   [ ] Submit presentation (Nina)
+\-
 
 ## Closed Tasks
 
+-   [x] Finalize README documentation (Nina)
+-   [x] Do video voice over (all)
+-   [x] Submit presentation & documentation (Nina)
+-   [x] Finalize presentation (all)
+-   [x] GDPR mapping (Margarida)
+-   [x] Policy recommendations (Margarida)
+-   [x] Compliance analysis (Margarida)
 -   [x] Presentation prep (Nina)
 -   [x] Bias analysis (Finley)
 -   [x] Fairness metrics (Finley)
@@ -32,6 +33,12 @@
 -   [x] Repository creation incl. adding of members (Margarida as owner)
 
 ## Meeting Notes
+
+### 03/09/2026
+
+-   Presentation refinement all together - ready to record video voice overs
+-   Every member adds their video voice overs to the presentation
+-   Nina -\> finalization of readme file + submission of the project after finalization of presentation incl. video voice overs
 
 ### 03/07/2026
 
