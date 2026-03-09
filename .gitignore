@@ -219,3 +219,6 @@ data/*.xlsx
 # OS files
 .DS_Store
 Thumbs.db
+
+# Claude Code local files
+.claude/
