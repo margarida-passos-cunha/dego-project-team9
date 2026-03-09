@@ -10,8 +10,6 @@
 
 > **Repository:** DEGO 2606 Group Project – Group 9 - Credit Application Governance Analysis
 
-------------------------------------------------------------------------
-
 ## Executive Summary
 
 This project applies data governance, fairness analysis, and privacy engineering principles to NovaCred's credit application dataset (\~500 records). The analysis is structured across three notebooks, each addressing a distinct governance dimension.
@@ -62,12 +60,8 @@ Nine governance recommendations are proposed across three domains.
 
 ### Additional files:
 
--   'PROJECT_MGMT.md' - Project management documentation
+-   '[PROJECT_MGMT.md](PROJECT_MGMT.md)' - Project management documentation, including our timeline, tasks, and latest meeting notes
 -   'README.md' - Project description & documentation
-
-## [Project Management](PROJECT_MGMT.md)
-
-Click on the link to open the Project Management file. It includes our timeline, tasks, and latest meeting notes.
 
 ------------------------------------------------------------------------
 
