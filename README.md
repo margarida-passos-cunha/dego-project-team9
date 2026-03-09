@@ -8,7 +8,7 @@
 
 ## Project Description
 
-> **Repository:** DEGO 2606 Group Project – Group 9 - Credit Application Governance Analysis
+> **Repository:** DEGO 2606 Group Project - Group 9 - Credit Application Governance Analysis
 
 ## Executive Summary
 
@@ -61,7 +61,7 @@ Nine governance recommendations are proposed across three domains.
 ### Additional files:
 
 -   '[PROJECT_MGMT.md](PROJECT_MGMT.md)' - Project management documentation, including our timeline, tasks, and latest meeting notes
--   'README.md' - Project description & documentation
+-   '[README.md](README.md)' - Project description & documentation
 
 ------------------------------------------------------------------------
 
