@@ -51,7 +51,6 @@ def standardize_gender(df: pd.DataFrame) -> pd.DataFrame:
         None: np.nan,
     }
     
-    df["gender_original"] = df["gender"].copy()  # keep original for audit trail
     df["gender"] = df["gender"].map(gender_map)
     
     counts = df["gender"].value_counts(dropna=False)
@@ -120,7 +119,6 @@ def normalize_dates(df: pd.DataFrame) -> pd.DataFrame:
         
         return pd.NaT
 
-    df["date_of_birth_original"] = df["date_of_birth"].copy()
     df["date_of_birth"] = df["date_of_birth"].apply(parse_dob)
     
     valid = df["date_of_birth"].notna().sum()
